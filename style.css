@@ -1,0 +1,34 @@
+body{
+    background-color:gray;
+}
+li{
+    margin-top:50px;
+    font-family:cursive;
+}
+input{
+    height:20px;
+    width:150px;
+}
+button{
+    border-radius:10px;
+    height:40px;
+    width:150px;
+    font-size:20px;
+}
+button:hover{
+    cursor:pointer;
+}
+.lower{
+    /* position:fixed;
+    left:150px; */
+    margin-left:150px;
+    margin-top:50px;
+    font-size:20px;
+}
+p{
+    display:inline; 
+    /* only so that when we make the background color of the <p> yello
+        to highlight the underweight or Normal Range or Overweight the 
+        background becomes yellow only for the text area and not the whole line
+        so we made it inline instead of default block. */ 
+}

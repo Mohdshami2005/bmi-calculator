@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="forms">
+    <!-- need to use forms as we have used <input> tags -->
+    <h1> BMI Calculator</h1>
+    <ul>
+        <li id="height"> Height in Cm :  <input id="inp1" type="text"></li>
+        <li id="weight">Weight in KG : <input id="inp2" type="text"></li>
+    </ul>
+    <div class="lower">
+        <button id="cal">Calculate</button><br><br>
+        <div id="result"></div>
+        <h2>BMI Weight Guide</h2>
+        <p id="underweight">Under Weight = Less than 18.6</p><br><br>
+        <p id="normal">Normal Range = 18.6 to 24.9</p><br><br>
+        <p id="overweight">Overweight = greater than 24.9</p><br>
+    </div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
