@@ -35,3 +35,4 @@ The application allows users to enter their height (in cm) and weight (in kg) an
     <td>Greater than 24.9</td>
   </tr>
 </table>
+#live demo - https://mohdshami2005.github.io/bmi-calculator/
